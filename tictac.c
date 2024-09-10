@@ -24,7 +24,12 @@ int main()
     char winner = ' ';
 
     resetBoard();
-    printBoard();
+
+    while(winner == ' ' && checkFreeSpaces() != 0)
+    {
+        printBoard();
+    }
+
 
     return 0;
 }
