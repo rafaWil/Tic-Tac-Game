@@ -132,6 +132,10 @@ void computerMove()
         } while (board[x][y] != ' ');
 
         board[x][y] = COMPUTER;
+    } 
+    else 
+    {
+        printWinner(' ');
     }
 }
 
