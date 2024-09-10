@@ -23,6 +23,9 @@ int main()
 {
     char winner = ' ';
 
+    resetBoard();
+    printBoard();
+
     return 0;
 }
 
