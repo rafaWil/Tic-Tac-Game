@@ -3,6 +3,12 @@
 #include<ctype.h>
 #include<time.h>
 
+/* Declared global variables */
+char board[3][3];
+const char PLAYER = 'X';
+const char COMPUTER = 'O';
+
+
 /* Declared functions before main */
 void resetBoard();
 void printBoard();
