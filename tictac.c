@@ -45,6 +45,9 @@ int main()
         }
     }
 
+    printBoard();
+    printWinner(winner);
+
 
     return 0;
 }
