@@ -21,7 +21,7 @@ void printWinner(char);
 /* Main in program */
 int main()
 {
-
+    char winner = ' ';
 
     return 0;
 }
