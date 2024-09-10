@@ -135,7 +135,7 @@ void computerMove()
     } 
     else 
     {
-        printWinner(' ');
+        printWinner(' ');   
     }
 }
 
@@ -170,8 +170,19 @@ char checkWinner()
     return ' ';
 }
 
-void printWinner(char)
+void printWinner(char winner)
 {
-
+    if(winner == PLAYER)
+    {
+        printf("YOU WIN!");
+    }
+    else if (winner == COMPUTER)
+    {
+        printf("YOU LOSE!");
+    }
+    else
+    {
+        printf("IT'S TIE!");
+    }
 }
 
