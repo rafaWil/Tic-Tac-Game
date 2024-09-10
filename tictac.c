@@ -154,3 +154,5 @@ void printWinner(char winner) {
         printf("IT'S A TIE!\n");  // Empate
     }
 }
+
+// Credits for Channel in Youtube CODE BRO
