@@ -82,22 +82,25 @@ void playerMove()
     int x;
     int y;
 
-    printf("Enter row #(1-3): ");
-    scanf("%d", &x);
-    x--;
-    
-    printf("Enter column #(1-3): ");
-    scanf("%d", &y);
-    y--;
+    do {
+        printf("Enter row #(1-3): ");
+        scanf("%d", &x);
+        x--;
+        
+        printf("Enter column #(1-3): ");
+        scanf("%d", &y);
+        y--;
 
-    if(board[x][y] != ' ')
-    {
-        printf("Invalid Move!\n");
-    }
-    else
-    {
-        board[x][y] = PLAYER;
-    }
+        if(board[x][y] != ' ')
+        {
+            printf("Invalid Move!\n");
+        }
+        else
+        {
+            board[x][y] = PLAYER;
+            break;
+        }
+    } while (board[x][y] != ' ');
 }
 
 void computerMove()
