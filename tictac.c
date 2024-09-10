@@ -13,10 +13,38 @@ int main()
 
 /* Adding functions for my program*/
 
-void resetBoard();
-void printBoard();
-int checkFreeSpaces();
-void playerMove();
-void computerMove();
-char checkWinner();
-void printWinner(char);
+void resetBoard()
+{
+
+}
+
+void printBoard()
+{
+
+}
+
+int checkFreeSpaces()
+{
+
+}
+
+void playerMove()
+{
+
+}
+
+void computerMove()
+{
+
+}
+
+char checkWinner()
+{
+
+}
+
+void printWinner(char)
+{
+    
+}
+
