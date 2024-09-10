@@ -119,6 +119,14 @@ char checkWinner()
             return board[i][0];
         }
     }
+    // Check columns
+    for(int i = 0; i < 3; i++)
+    {   
+        if(board[0][i] == board[1][i] == board[2][i])
+        {
+            return board[0][i];
+        }
+    }
 }
 
 void printWinner(char)
