@@ -92,7 +92,11 @@ void playerMove()
 
     if(board[x][y] != ' ')
     {
-        
+        printf("Invalid Move!\n");
+    }
+    else
+    {
+        board[x][y] = PLAYER;
     }
 }
 
