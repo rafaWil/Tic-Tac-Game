@@ -3,6 +3,14 @@
 #include<ctype.h>
 #include<time.h>
 
+/* Main in program */
+int main()
+{
+
+    return 0;
+}
+
+
 /* Adding functions for my program*/
 
 void resetBoard();
@@ -12,9 +20,3 @@ void playerMove();
 void computerMove();
 char checkWinner();
 void printWinner(char);
-
-int main()
-{
-
-    return 0;
-}
