@@ -111,7 +111,14 @@ void computerMove()
 
 char checkWinner()
 {
-
+    // Check rows
+    for(int i = 0; i < 3; i++)
+    {   
+        if(board[i][0] == board[i][1] == board[i][2])
+        {
+            return board[i][0];
+        }
+    }
 }
 
 void printWinner(char)
